@@ -74,8 +74,49 @@ body{
     border: none;
     color: var(--medium-grey);
     background-color: var(--dark-blue);
+
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 32px;
 }
 
 .botoes button:hover{
-    
+    color: var(--white);
+    background-color: var(--orange);
+    cursor: pointer;
 }
+
+.botoes button:focus{
+    color: var(--white);
+    background-color: var(--medium-grey);
+}
+
+.Card > button{
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+    
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    transition: all ease-in-out 0.3s;
+}
+
+.Card > button:hover{
+    width: 100%;
+    padding: 13px;
+    color: var(--orange);
+    border: none;
+    border-radius: 22px;
+    
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
